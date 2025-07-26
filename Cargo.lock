@@ -2231,8 +2231,7 @@ checksum = "b9e0384b61958566e926dc50660321d12159025e767c18e043daf26b70104c39"
 [[package]]
 name = "incrementalmerkletree"
 version = "0.8.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "30821f91f0fa8660edca547918dc59812893b497d07c1144f326f07fdd94aba9"
+source = "git+https://github.com/argentum3/incrementalmerkletree.git#8bab449ebd6c3ce610b827afaa3b30584a36f3c9"
 dependencies = [
  "either",
  "proptest",
@@ -2840,8 +2839,7 @@ checksum = "04744f49eae99ab78e0d5c0b603ab218f515ea8cfe5a456d7629ad883a3b6e7d"
 [[package]]
 name = "orchard"
 version = "0.11.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b1ef66fcf99348242a20d582d7434da381a867df8dc155b3a980eca767c56137"
+source = "git+https://github.com/argentum3/orchard.git#fcb14defd75c0dd79512289c17a1ac46b5001d3a"
 dependencies = [
  "aes",
  "bitvec",
@@ -3911,8 +3909,7 @@ dependencies = [
 [[package]]
 name = "sapling-crypto"
 version = "0.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f9d3c081c83f1dc87403d9d71a06f52301c0aa9ea4c17da2a3435bbf493ffba4"
+source = "git+https://github.com/argentum3/sapling-crypto.git#6a8282be0959b410a0b622cd5eb84f8c3c134078"
 dependencies = [
  "aes",
  "bellman",
@@ -5878,8 +5875,7 @@ checksum = "6a02e4885ed3bc0f2de90ea6dd45ebcbb66dacffe03547fadbb0eeae2770887d"
 [[package]]
 name = "wagyu-zcash-parameters"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "61c904628658374e651288f000934c33ef738b2d8b3e65d4100b70b395dbe2bb"
+source = "git+https://github.com/argentum3/wagyu-zcash-parameters.git#6a628dd3a457c83a4637c9f0c92ab7819c91aba6"
 dependencies = [
  "wagyu-zcash-parameters-1",
  "wagyu-zcash-parameters-2",
@@ -5892,38 +5888,32 @@ dependencies = [
 [[package]]
 name = "wagyu-zcash-parameters-1"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "90bf2e21bb027d3f8428c60d6a720b54a08bf6ce4e6f834ef8e0d38bb5695da8"
+source = "git+https://github.com/argentum3/wagyu-zcash-parameters.git#6a628dd3a457c83a4637c9f0c92ab7819c91aba6"
 
 [[package]]
 name = "wagyu-zcash-parameters-2"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a616ab2e51e74cc48995d476e94de810fb16fc73815f390bf2941b046cc9ba2c"
+source = "git+https://github.com/argentum3/wagyu-zcash-parameters.git#6a628dd3a457c83a4637c9f0c92ab7819c91aba6"
 
 [[package]]
 name = "wagyu-zcash-parameters-3"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "14da1e2e958ff93c0830ee68e91884069253bf3462a67831b02b367be75d6147"
+source = "git+https://github.com/argentum3/wagyu-zcash-parameters.git#6a628dd3a457c83a4637c9f0c92ab7819c91aba6"
 
 [[package]]
 name = "wagyu-zcash-parameters-4"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f058aeef03a2070e8666ffb5d1057d8bb10313b204a254a6e6103eb958e9a6d6"
+source = "git+https://github.com/argentum3/wagyu-zcash-parameters.git#6a628dd3a457c83a4637c9f0c92ab7819c91aba6"
 
 [[package]]
 name = "wagyu-zcash-parameters-5"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3ffe916b30e608c032ae1b734f02574a3e12ec19ab5cc5562208d679efe4969d"
+source = "git+https://github.com/argentum3/wagyu-zcash-parameters.git#6a628dd3a457c83a4637c9f0c92ab7819c91aba6"
 
 [[package]]
 name = "wagyu-zcash-parameters-6"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a7b6d5a78adc3e8f198e9cd730f219a695431467f7ec29dcfc63ade885feebe1"
+source = "git+https://github.com/argentum3/wagyu-zcash-parameters.git#6a628dd3a457c83a4637c9f0c92ab7819c91aba6"
 
 [[package]]
 name = "wait-timeout"

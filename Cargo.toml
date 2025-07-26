@@ -219,3 +219,9 @@ unexpected_cfgs = { level = "warn", check-cfg = [
   'cfg(zcash_unstable, values("zfuture", "nu6.1", "nu7"))',
   'cfg(live_network_tests)',
 ] }
+
+[patch.crates-io]
+sapling-crypto = { git = "https://github.com/argentum3/sapling-crypto.git", package = "sapling-crypto" }
+orchard = { git = "https://github.com/argentum3/orchard.git", package = "orchard" }
+incrementalmerkletree = { git = "https://github.com/argentum3/incrementalmerkletree.git", package = "incrementalmerkletree" }
+wagyu-zcash-parameters = { git = "https://github.com/argentum3/wagyu-zcash-parameters.git", package = "wagyu-zcash-parameters" }
