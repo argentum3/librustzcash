@@ -3,7 +3,7 @@
 /// The mainnet coin type for ZEC, as defined by [SLIP 44].
 ///
 /// [SLIP 44]: https://github.com/satoshilabs/slips/blob/master/slip-0044.md
-pub const COIN_TYPE: u32 = 133;
+pub const COIN_TYPE: u32 = 347;
 
 /// The HRP for a Bech32-encoded mainnet Sapling [`ExtendedSpendingKey`].
 ///
@@ -27,7 +27,7 @@ pub const HRP_SAPLING_EXTENDED_FULL_VIEWING_KEY: &str = "zxviews";
 ///
 /// [`PaymentAddress`]: https://docs.rs/sapling-crypto/latest/sapling_crypto/struct.PaymentAddress.html
 /// [Zcash Protocol Specification]: https://github.com/zcash/zips/blob/main/rendered/protocol/protocol.pdf
-pub const HRP_SAPLING_PAYMENT_ADDRESS: &str = "zs";
+pub const HRP_SAPLING_PAYMENT_ADDRESS: &str = "ys";
 
 /// The prefix for a Base58Check-encoded mainnet Sprout address.
 ///
@@ -39,12 +39,12 @@ pub const B58_SPROUT_ADDRESS_PREFIX: [u8; 2] = [0x16, 0x9a];
 /// The prefix for a Base58Check-encoded mainnet [`PublicKeyHash`].
 ///
 /// [`PublicKeyHash`]: https://docs.rs/zcash_primitives/latest/zcash_primitives/legacy/enum.TransparentAddress.html
-pub const B58_PUBKEY_ADDRESS_PREFIX: [u8; 2] = [0x1c, 0xb8];
+pub const B58_PUBKEY_ADDRESS_PREFIX: [u8; 2] = [0x1c, 0x28];
 
 /// The prefix for a Base58Check-encoded mainnet [`ScriptHash`].
 ///
 /// [`ScriptHash`]: https://docs.rs/zcash_primitives/latest/zcash_primitives/legacy/enum.TransparentAddress.html
-pub const B58_SCRIPT_ADDRESS_PREFIX: [u8; 2] = [0x1c, 0xbd];
+pub const B58_SCRIPT_ADDRESS_PREFIX: [u8; 2] = [0x1c, 0x2c];
 
 /// The HRP for a Bech32m-encoded mainnet [ZIP 320] TEX address.
 ///
