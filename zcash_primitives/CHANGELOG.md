@@ -10,6 +10,15 @@ workspace.
 
 ## [Unreleased]
 
+### Added
+- `zcash_primitives::transaction::components::sapling`:
+  - `create_spend_description_with_frost_sig` - Create authorized spend descriptions
+    with externally-generated FROST threshold signatures
+  - `create_output_description` - Create output descriptions with pre-computed
+    note encryption ciphertexts
+  - `create_bundle_with_frost_signatures` - Create authorized Sapling bundles with
+    external binding signatures for FROST threshold signature workflows
+
 ### Changed
 - MSRV is now 1.85.1.
 
