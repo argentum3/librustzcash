@@ -1,2 +1,16 @@
 [env]
 RUST_BACKTRACE = "1"
+
+[build]
+# Use sccache to cache compilation artifacts across builds
+# Install sccache: cargo install sccache
+# This dramatically speeds up clean builds by caching compiled dependencies
+rustc-wrapper = "sccache"
+
+# Increase parallelism for faster builds (adjust based on your CPU cores)
+# Uncomment and adjust if needed:
+# jobs = 8
+
+[term]
+# Show more verbose output during builds
+verbose = true
