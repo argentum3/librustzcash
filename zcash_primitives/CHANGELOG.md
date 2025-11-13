@@ -20,7 +20,7 @@ workspace.
     external binding signatures for FROST threshold signature workflows
 
 ### Changed
-- MSRV is now 1.85.1.
+- MSRV is now 1.91.0.
 
 ### Removed
 - Removed deprecated modules:

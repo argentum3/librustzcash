@@ -14,3 +14,10 @@ rustc-wrapper = "sccache"
 [term]
 # Show more verbose output during builds
 verbose = true
+
+[source.crates-io]
+registry = 'sparse+https://index.crates.io/'
+replace-with = 'local-registry'
+
+[source.local-registry]
+local-registry = '/Users/boy/local-crates-registry'
